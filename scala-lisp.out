@@ -1,0 +1,11 @@
+(1 . (2 . (3 . NIL)))
+(NIL . NIL)
+eq(a, a) ==> true
+eq(a, b) ==> false
+eq(b, b) ==> true
+eq(a, d) ==> false
+eq(d, e) ==> false
+eq(d, d) ==> true
+c ==> (1 . 2)
+x ==> (print . (1 . NIL))
+eval(x) ==> 1()
