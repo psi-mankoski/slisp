@@ -4,23 +4,23 @@ This repository contains the source code for an extremely simple basis for a LIS
 
 ## Building Instructions
 
-   Prompt% scalac lisp.scala
+	Prompt% scalac lisp.scala
 
 ## Sample Output
 
-   `Prompt% scala lisp`
-   `(1 . (2 . (3 . NIL)))`
-   `(NIL . NIL)`
-   `eq(a, a) ==> true`
-   `eq(a, b) ==> false`
-   `eq(b, b) ==> true`
-   `eq(a, d) ==> false`
-   `eq(d, e) ==> false`
-   `eq(d, d) ==> true`
-   `c ==> (1 . 2)`
-   `x ==> (print . (1 . NIL))`
-   `eval(x) ==> 1()`
-   `Prompt%`
+	Prompt% scala lisp
+	(1 . (2 . (3 . NIL)))
+	(NIL . NIL)
+	eq(a, a) ==> true
+	eq(a, b) ==> false
+	eq(b, b) ==> true
+	eq(a, d) ==> false
+	eq(d, e) ==> false
+	eq(d, d) ==> true
+	c ==> (1 . 2)
+	x ==> (print . (1 . NIL))
+	eval(x) ==> 1()
+	Prompt% 
 
 ## Future Directions
 
